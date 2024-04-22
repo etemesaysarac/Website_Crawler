@@ -27,7 +27,7 @@ def crawl(url):
 
 
 crawl(target_url)
-
 ft = time.time()
 et = ft-st
-print('Butun bu islem', et, 'saniye surmustur.')
+print('Total elapsed time is : ',et, 'second')
+print('Total link count is : ',len(Found_Links))
